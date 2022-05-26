@@ -22,7 +22,7 @@ class IterativeLQRFactory(ControllerFactory):
     In this way, the control policy is the nominal control plus linear feedback of state deviation.
     This policy is applied to the system and a updated nominal trajectory is obtained.
     By doing this process iteratively, the optimal trajectory can be obtained.
-    Some reference to understand this technique can be found at `this blog <https://jonathan-hui.medium.com/rl-lqr-ilqr-linear-quadratic-regulator-a5de5104c750>`_, `this blog <https://studywolf.wordpress.com/2016/02/03/the-iterative-linear-quadratic-regulator-method/>`_, and `this slide <https://katefvision.github.io/katefSlides/RECITATIONtrajectoryoptimization_katef.pdf>`_. 
+    Some reference to understand this technique can be found at `this blog <https://jonathan-hui.medium.com/rl-lqr-ilqr-linear-quadratic-regulator-a5de5104c750>`__, `this blog <https://studywolf.wordpress.com/2016/02/03/the-iterative-linear-quadratic-regulator-method/>`__, and `this slide <https://katefvision.github.io/katefSlides/RECITATIONtrajectoryoptimization_katef.pdf>`_. 
 
     Hyperparameters:
 

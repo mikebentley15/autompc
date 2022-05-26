@@ -2,7 +2,7 @@ graphs package
 ==============
 
 TuningCurveGraph
----------------
+----------------
 .. autoclass:: autompc.graphs.TuningCurveGraph
    :members:  __call__
 

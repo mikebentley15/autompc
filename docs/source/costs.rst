@@ -39,7 +39,7 @@ QuadCost
    :members: __init__
 
 SumCost
-------
+-------
 .. autoclass:: autompc.costs.SumCost
    :members: __init__
 
@@ -49,6 +49,6 @@ ThresholdCost
    :members: __init__
 
 BoxThresholdCost
--------------
+----------------
 .. autoclass:: autompc.costs.BoxThresholdCost
    :members: __init__
